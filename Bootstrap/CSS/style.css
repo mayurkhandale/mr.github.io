@@ -1,0 +1,23 @@
+.full-screen-landing{
+    background:white url("../../Image/pexels-pixabay-60504.jpg" ) no-repeat scroll center ;
+    height: 100vh;
+    background-size: cover;
+}
+.overlay{
+    background-color: rgba(0,0,0,0.5);
+    height: 100%;
+
+}
+.search-box{
+    height: 50px;
+    width: 500px;
+}
+#head{
+    background-color: wheat;
+}
+@media (max-width: 576px) {
+    .search-box{
+        width: 300px;
+    }
+    
+}
